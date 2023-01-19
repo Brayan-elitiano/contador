@@ -1,6 +1,23 @@
-function adicionar() {
-    
+ let numero = 0
+
+
+//alteradores de estado da aplicao
+
+
+ function adicionar() {
+ numero++ 
+ render()
 }
 function diminuir() {
-    
+    numero--
+    render()
+}
+function zerar(){
+    numero = 0
+}
+function render(){
+const p = document.getElementById("number")
+p.innerText = numero
+console.log(p)
+
 }
