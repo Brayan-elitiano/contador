@@ -14,6 +14,7 @@ function diminuir() {
 }
 function zerar(){
     numero = 0
+    render()
 }
 function render(){
 const p = document.getElementById("number")
